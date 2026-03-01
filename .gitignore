@@ -5,9 +5,11 @@ node_modules/
 *.tsbuildinfo
 next-env.d.ts
 
-# Images served from WordPress CDN — not stored in git
+# Images served from Cloudinary CDN — not stored in git
 output/images/
-public/images/
+# Ignore article images but keep team avatars
+public/images/*
+!public/images/team
 
 
 # Bun

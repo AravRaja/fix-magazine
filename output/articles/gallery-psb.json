@@ -1,0 +1,33 @@
+{
+  "id": 7498,
+  "slug": "gallery-psb",
+  "title": "Gallery: Public Service Broadcasting, O2 Academy",
+  "content": "<p>Check out our images of the always entertaining Public Service Broadcasting during their visit to Bristol&#8217;s O2 Academy.</p>\n<p>Read our <a href=\"https://www.thefixmagazine.com/public-service-broadcasting/\">full review</a>.</p>\n<p></p>\n<p></p>",
+  "excerpt": "Check out our images of the always entertaining Public Service Broadcasting during their visit to Bristol’s O2 Academy. Read our full review. [gallery_bank type=”images” format=”thumbnail” title=”false” desc=”false” responsive=”true” special_effect=”none” animation_effect=”fadeIn” album_title=”false” album_id=”34&#8243;] [advps-slideshow optset=”1&#8243;]",
+  "date": "2015-04-25",
+  "author": {
+    "id": 4,
+    "name": "Scott Hammond",
+    "slug": "scott"
+  },
+  "categories": [
+    "Music",
+    "Photography",
+    "Visual Art",
+    "Theatre",
+    "Film"
+  ],
+  "tags": [
+    "o2 academy bristol",
+    "public service broadcasting",
+    "stef formica photography"
+  ],
+  "featuredImage": {
+    "remoteUrl": "https://www.thefixmagazine.com/wp-content/uploads/2015/04/psb-14.jpg",
+    "localPath": "images/gallery-psb-featured.jpg",
+    "alt": ""
+  },
+  "contentImages": [],
+  "rating": null,
+  "sourceUrl": "https://www.thefixmagazine.com/gallery-psb/"
+}

@@ -1,0 +1,32 @@
+{
+  "id": 7590,
+  "slug": "photo-gallery-farao-thekla",
+  "title": "Gallery: Farao, Thekla",
+  "content": "<p style=\"text-align: right;\"><em>29 April 2015</em></p>\n<p style=\"text-align: left;\"></p>\n<p style=\"text-align: left;\">All images: Stef Formica</p>\n<p style=\"text-align: left;\"></p>",
+  "excerpt": "29 April 2015 [gallery_bank type=”images” format=”thumbnail” title=”false” desc=”false” responsive=”true” special_effect=”none” animation_effect=”fadeIn” album_title=”false” album_id=”37&#8243;] All images: Stef Formica [advps-slideshow optset=”1&#8243;]",
+  "date": "2015-04-29",
+  "author": {
+    "id": 3,
+    "name": "Conal Dougan",
+    "slug": "conal"
+  },
+  "categories": [
+    "Music",
+    "Photography",
+    "Visual Art",
+    "Theatre",
+    "Film"
+  ],
+  "tags": [
+    "farao",
+    "Thekla"
+  ],
+  "featuredImage": {
+    "remoteUrl": "https://www.thefixmagazine.com/wp-content/uploads/2015/04/sumra-81.jpg",
+    "localPath": "images/photo-gallery-farao-thekla-featured.jpg",
+    "alt": ""
+  },
+  "contentImages": [],
+  "rating": null,
+  "sourceUrl": "https://www.thefixmagazine.com/photo-gallery-farao-thekla/"
+}

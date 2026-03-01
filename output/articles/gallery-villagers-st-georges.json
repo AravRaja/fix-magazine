@@ -1,0 +1,33 @@
+{
+  "id": 7342,
+  "slug": "gallery-villagers-st-georges",
+  "title": "Gallery: Villagers, St George’s",
+  "content": "<p>Villagers come to town and played a beautiful show at Bristol&#8217;s St George&#8217;s &#8211; Check out some of the photographs.</p>\n<p>Also, read a <a href=\"https://www.thefixmagazine.com/villagers-st-georges/\">full review of the gig</a>.</p>\n<p></p>\n<p></p>",
+  "excerpt": "Villagers come to town and played a beautiful show at Bristol’s St George’s – Check out some of the photographs. Also, read a full review of the gig. [gallery_bank type=”images” format=”thumbnail” title=”false” desc=”false” responsive=”true” special_effect=”none” animation_effect=”fadeIn” album_title=”false” album_id=”30&#8243;] [advps-slideshow optset=”1&#8243;]",
+  "date": "2015-04-15",
+  "author": {
+    "id": 4,
+    "name": "Scott Hammond",
+    "slug": "scott"
+  },
+  "categories": [
+    "Music",
+    "Photography",
+    "Visual Art",
+    "Theatre",
+    "Film"
+  ],
+  "tags": [
+    "st georges",
+    "stefania formica",
+    "villagers"
+  ],
+  "featuredImage": {
+    "remoteUrl": "https://www.thefixmagazine.com/wp-content/uploads/2015/04/villagers-7.jpg",
+    "localPath": "images/gallery-villagers-st-georges-featured.jpg",
+    "alt": ""
+  },
+  "contentImages": [],
+  "rating": null,
+  "sourceUrl": "https://www.thefixmagazine.com/gallery-villagers-st-georges/"
+}

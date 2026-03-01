@@ -1,0 +1,33 @@
+{
+  "id": 10006,
+  "slug": "gallery-yo-la-tengo-at-colston-hall",
+  "title": "Gallery: Yo La Tengo at Colston Hall",
+  "content": "<p>Some shots from New Jersey band Yo La Tengo&#8217;s first ever visit to Bristol. Read our <a href=\"https://www.thefixmagazine.com/yo-la-tengo/\">full review</a> of the show.</p>\n<p></p>\n<p></p>",
+  "excerpt": "Some shots from New Jersey band Yo La Tengo’s first ever visit to Bristol. Read our full review of the show. [gallery_bank type=”images” format=”thumbnail” title=”false” desc=”false” img_in_row=”3&#8243; special_effect=”none” animation_effect=”fadeIn” album_title=”true” album_id=”87&#8243;] [advps-slideshow optset=”1&#8243;]",
+  "date": "2015-10-19",
+  "author": {
+    "id": 4,
+    "name": "Scott Hammond",
+    "slug": "scott"
+  },
+  "categories": [
+    "Photography",
+    "Music",
+    "Visual Art",
+    "Theatre",
+    "Film"
+  ],
+  "tags": [
+    "colston hall",
+    "stef formica photography",
+    "Yo La Tengo"
+  ],
+  "featuredImage": {
+    "remoteUrl": "https://www.thefixmagazine.com/wp-content/uploads/2015/10/yolatengo-8.jpg",
+    "localPath": "images/gallery-yo-la-tengo-at-colston-hall-featured.jpg",
+    "alt": ""
+  },
+  "contentImages": [],
+  "rating": null,
+  "sourceUrl": "https://www.thefixmagazine.com/gallery-yo-la-tengo-at-colston-hall/"
+}

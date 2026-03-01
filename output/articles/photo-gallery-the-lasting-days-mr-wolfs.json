@@ -1,0 +1,33 @@
+{
+  "id": 5596,
+  "slug": "photo-gallery-the-lasting-days-mr-wolfs",
+  "title": "Photo Gallery: The Lasting Days, Mr Wolfs",
+  "content": "<p>All the best images from The Lasting Days album launch for <em>We Simplify</em> at Bristol&#8217;s Mr Wolfs.</p>\n<p></p>\n<p>All images: Stef Formica Photography</p>",
+  "excerpt": "All the best images from The Lasting Days album launch for We Simplify at Bristol’s Mr Wolfs. [gallery_bank type=”images” format=”filmstrip” title=”false” desc=”false” img_in_row=”3&#8243; animation_effect=”fadeIn” image_width=”600&#8243; album_title=”false” album_id=”7&#8243;] All images: Stef Formica Photography",
+  "date": "2015-01-25",
+  "author": {
+    "id": 3,
+    "name": "Conal Dougan",
+    "slug": "conal"
+  },
+  "categories": [
+    "Photography",
+    "Music",
+    "Visual Art",
+    "Theatre",
+    "Film"
+  ],
+  "tags": [
+    "mr wolfs",
+    "the lasting days",
+    "we simplify"
+  ],
+  "featuredImage": {
+    "remoteUrl": "https://www.thefixmagazine.com/wp-content/uploads/2015/01/ld-23.jpg",
+    "localPath": "images/photo-gallery-the-lasting-days-mr-wolfs-featured.jpg",
+    "alt": ""
+  },
+  "contentImages": [],
+  "rating": null,
+  "sourceUrl": "https://www.thefixmagazine.com/photo-gallery-the-lasting-days-mr-wolfs/"
+}

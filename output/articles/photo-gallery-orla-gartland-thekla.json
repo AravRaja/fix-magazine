@@ -1,0 +1,34 @@
+{
+  "id": 6216,
+  "slug": "photo-gallery-orla-gartland-thekla",
+  "title": "Photo Gallery: Orla Gartland, Thekla",
+  "content": "<p style=\"text-align: right;\"><em>22 February 2015</em></p>\n<p style=\"text-align: left;\"></p>\n<p style=\"text-align: left;\">All images: <a href=\"http://stefformicaphotography.jimdo.com/\" target=\"_blank\">Stef Formica Photography</a></p>",
+  "excerpt": "22 February 2015 [gallery_bank type=”images” format=”filmstrip” title=”false” desc=”false” img_in_row=”3&#8243; animation_effect=”fadeIn” image_width=”600&#8243; album_title=”false” album_id=”12&#8243;] All images: Stef Formica Photography",
+  "date": "2015-02-22",
+  "author": {
+    "id": 3,
+    "name": "Conal Dougan",
+    "slug": "conal"
+  },
+  "categories": [
+    "Music",
+    "Photography",
+    "Visual Art",
+    "Theatre",
+    "Film"
+  ],
+  "tags": [
+    "orla gartland",
+    "photo gallery",
+    "stef formica",
+    "Thekla"
+  ],
+  "featuredImage": {
+    "remoteUrl": "https://www.thefixmagazine.com/wp-content/uploads/2015/02/orla-32.jpg",
+    "localPath": "images/photo-gallery-orla-gartland-thekla-featured.jpg",
+    "alt": ""
+  },
+  "contentImages": [],
+  "rating": null,
+  "sourceUrl": "https://www.thefixmagazine.com/photo-gallery-orla-gartland-thekla/"
+}

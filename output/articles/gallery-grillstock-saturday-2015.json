@@ -1,0 +1,33 @@
+{
+  "id": 9019,
+  "slug": "gallery-grillstock-saturday-2015",
+  "title": "Gallery: Grillstock Saturday 2015",
+  "content": "<p style=\"text-align: right;\"><em>11th July 2015</em></p>\n<p style=\"text-align: left;\">Check out our extensive gallery from the Saturday at Grillstock 2015&#8230;</p>\n<p style=\"text-align: left;\"></p>\n<p style=\"text-align: left;\">Check out our <a href=\"https://www.thefixmagazine.com/review-grillstock-2015-meat-music-and-mayhem-by-bristol-harbourside/\">full review</a> of the day.</p>\n<p style=\"text-align: left;\"><strong>Stef Formica Photography</strong></p>\n<p></p>",
+  "excerpt": "11th July 2015 Check out our extensive gallery from the Saturday at Grillstock 2015&#8230; [gallery_bank type=”images” format=”thumbnail” title=”false” desc=”false” responsive=”true” special_effect=”none” animation_effect=”fadeIn” album_title=”false” album_id=”78&#8243;] Check out our full review of the day. Stef Formica Photography [advps-slideshow optset=”1&#8243;]",
+  "date": "2015-07-14",
+  "author": {
+    "id": 4,
+    "name": "Scott Hammond",
+    "slug": "scott"
+  },
+  "categories": [
+    "Photography",
+    "Music",
+    "Visual Art",
+    "Theatre",
+    "Film"
+  ],
+  "tags": [
+    "bristol",
+    "grillstock",
+    "stef formica photography"
+  ],
+  "featuredImage": {
+    "remoteUrl": "https://www.thefixmagazine.com/wp-content/uploads/2015/07/glc-15.jpg",
+    "localPath": "images/gallery-grillstock-saturday-2015-featured.jpg",
+    "alt": ""
+  },
+  "contentImages": [],
+  "rating": null,
+  "sourceUrl": "https://www.thefixmagazine.com/gallery-grillstock-saturday-2015/"
+}

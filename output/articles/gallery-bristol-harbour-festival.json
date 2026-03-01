@@ -1,0 +1,29 @@
+{
+  "id": 9194,
+  "slug": "gallery-bristol-harbour-festival",
+  "title": "Gallery: Bristol Harbour Festival",
+  "content": "<p style=\"text-align: right;\"><em>19th July 2015</em></p>\n<p style=\"text-align: left;\"></p>\n<p style=\"text-align: left;\"><strong>Stef Formica Photography</strong></p>\n<p></p>",
+  "excerpt": "19th July 2015 [gallery_bank type=”images” format=”masonry” title=”false” desc=”false” responsive=”true” special_effect=”none” animation_effect=”fadeIn” album_title=”false” album_id=”82&#8243;] Stef Formica Photography [advps-slideshow optset=”1&#8243;]",
+  "date": "2015-07-19",
+  "author": {
+    "id": 3,
+    "name": "Conal Dougan",
+    "slug": "conal"
+  },
+  "categories": [
+    "Photography",
+    "Music",
+    "Visual Art",
+    "Theatre",
+    "Film"
+  ],
+  "tags": [],
+  "featuredImage": {
+    "remoteUrl": "https://www.thefixmagazine.com/wp-content/uploads/2015/07/harbourcrowd-26.jpg",
+    "localPath": "images/gallery-bristol-harbour-festival-featured.jpg",
+    "alt": ""
+  },
+  "contentImages": [],
+  "rating": null,
+  "sourceUrl": "https://www.thefixmagazine.com/gallery-bristol-harbour-festival/"
+}

@@ -15,9 +15,9 @@ import fs from 'fs'
 import path from 'path'
 import crypto from 'crypto'
 
-const CLOUD_NAME  = process.env.CLOUDINARY_CLOUD_NAME
-const API_KEY     = process.env.CLOUDINARY_API_KEY
-const API_SECRET  = process.env.CLOUDINARY_API_SECRET
+const CLOUD_NAME  = process.env.CLOUDINARY_CLOUD_NAME?.trim()
+const API_KEY     = process.env.CLOUDINARY_API_KEY?.trim()
+const API_SECRET  = process.env.CLOUDINARY_API_SECRET?.trim()
 
 if (!CLOUD_NAME || !API_KEY || !API_SECRET) {
   console.error('Missing env vars. Set CLOUDINARY_CLOUD_NAME, CLOUDINARY_API_KEY, CLOUDINARY_API_SECRET')
@@ -42,13 +42,25 @@ function sign(params: Record<string, string>): string {
   return crypto.createHash('sha1').update(str).digest('hex')
 }
 
+const MIME: Record<string, string> = {
+  jpg: 'image/jpeg', jpeg: 'image/jpeg',
+  png: 'image/png',  gif: 'image/gif',
+  webp: 'image/webp', svg: 'image/svg+xml',
+}
+
 async function uploadOne(filePath: string, publicId: string): Promise<string> {
   const timestamp = Math.floor(Date.now() / 1000).toString()
   const params: Record<string, string> = { folder: FOLDER, public_id: publicId, timestamp }
   const signature = sign(params)
 
+  // Send as base64 data URI — more reliable than Blob/FormData across runtimes
+  const ext  = path.extname(filePath).slice(1).toLowerCase()
+  const mime = MIME[ext] ?? 'image/jpeg'
+  const b64  = fs.readFileSync(filePath).toString('base64')
+  const dataUri = `data:${mime};base64,${b64}`
+
   const form = new FormData()
-  form.append('file', new Blob([fs.readFileSync(filePath)]))
+  form.append('file', dataUri)
   form.append('folder', FOLDER)
   form.append('public_id', publicId)
   form.append('timestamp', timestamp)

@@ -6,7 +6,7 @@ node_modules/
 next-env.d.ts
 
 # Output (crawler generates this)
-output
+
 
 # Bun
 bun.lockb

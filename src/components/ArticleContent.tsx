@@ -55,12 +55,6 @@ export function ArticleContent({ html, contentImages, featuredImage }: ArticleCo
         }
       }
 
-      // Fix remote → local image paths
-      const match = contentImages.find((ci) => ci.remoteUrl === src)
-      if (match) {
-        img.setAttribute('src', `/${match.localPath}`)
-      }
-
       img.style.maxWidth = '100%'
       img.style.height = 'auto'
     })

@@ -8,7 +8,7 @@ export function imageUrl(localPath: string): string {
 /** Return public URL for a featured image, or null if missing */
 export function featuredImageUrl(image: ImageRef | null): string | null {
   if (!image) return null
-  return imageUrl(image.localPath)
+  return image.remoteUrl
 }
 
 /** Fallback placeholder when no image is available */

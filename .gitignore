@@ -5,7 +5,9 @@ node_modules/
 *.tsbuildinfo
 next-env.d.ts
 
-# Output (crawler generates this)
+# Images served from WordPress CDN — not stored in git
+output/images/
+public/images/
 
 
 # Bun

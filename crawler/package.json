@@ -1,0 +1,20 @@
+{
+  "name": "fix-magazine-crawler",
+  "version": "1.0.0",
+  "description": "WordPress content crawler for thefixmagazine.com",
+  "type": "module",
+  "scripts": {
+    "crawl": "tsx src/index.ts",
+    "patch-categories": "tsx scripts/patch-categories.ts",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "tsx": "^4.19.2"
+  },
+  "devDependencies": {
+    "vitest": "^2.1.8",
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2"
+  }
+}

@@ -1,0 +1,186 @@
+/* ── Fonts ─────────────────────────────────────────────── */
+/* Cormorant Garamond — close Canela substitute until font file is added */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500&display=swap');
+@import "tailwindcss";
+
+/* ── Canela Condensed (drop files into /public/fonts/) ──────────────────── */
+@font-face {
+  font-family: 'Canela Condensed';
+  src: url('/fonts/Canela-CondensedRegular-Web.woff2') format('woff2'),
+       url('/fonts/Canela-CondensedRegular-Web.woff')  format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Canela Condensed';
+  src: url('/fonts/Canela-CondensedLight-Web.woff2') format('woff2'),
+       url('/fonts/Canela-CondensedLight-Web.woff')  format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ── Tailwind custom utilities ──────────────────────────── */
+@utility font-display {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+@utility font-mono {
+  font-family: 'IBM Plex Mono', 'Courier New', monospace;
+}
+
+@utility font-body {
+  font-family: 'IBM Plex Mono', 'Courier New', monospace;
+}
+
+@utility font-ui {
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+/* ── Palette ────────────────────────────────────────────── */
+:root {
+  --bg: #ebff00;
+  --surface: #ffffff;
+  --surface-alt: #f5f5f5;
+  --border: #000000;
+  --text-primary: #000000;
+  --text-secondary: #000000;
+  --text-muted: #333333;
+  --accent: #ebff00;
+  --accent-hover: #d4e600;
+  --accent-alt: #ebff00;
+  --highlight: rgba(0,0,0,0.15);
+  --overlay: rgba(0,0,0,0.55);
+  --warm: #ebff00;
+  --cool: #000000;
+  --paper: #ffffff;
+  --special: #ebff00;
+  --section-accent: var(--accent);
+
+  /* Category tag palette */
+  --tag-music:   #000000;
+  --tag-theatre: #cc0000;
+  --tag-film:    #0044cc;
+  --tag-art:     #6600bb;
+}
+
+/* ── Base styles ────────────────────────────────────────── */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text-secondary);
+  font-family: 'IBM Plex Mono', 'Courier New', monospace;
+  font-size: 16px;
+  line-height: 1.65;
+}
+
+/* ── Article prose styles ───────────────────────────────── */
+.article-prose {
+  color: var(--text-secondary);
+  font-family: 'IBM Plex Mono', 'Courier New', monospace;
+  font-size: 1rem;
+  line-height: 1.8;
+  max-width: 68ch;
+}
+
+.article-prose h1,
+.article-prose h2,
+.article-prose h3,
+.article-prose h4 {
+  font-family: 'Playfair Display', Georgia, serif;
+  color: var(--text-primary);
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.article-prose h2 { font-size: 1.5rem; }
+.article-prose h3 { font-size: 1.25rem; }
+
+.article-prose p {
+  margin-bottom: 1.25rem;
+}
+
+.article-prose a {
+  color: #ebff00;
+  background-color: #000;
+  padding: 0 3px;
+  text-decoration: none;
+  transition: opacity 0.15s ease;
+}
+
+.article-prose a:hover {
+  opacity: 0.75;
+}
+
+.article-prose blockquote {
+  border-left: 3px solid var(--accent);
+  padding: 0.75rem 1.25rem;
+  margin: 1.5rem 0;
+  background-color: var(--paper);
+  font-style: italic;
+  color: var(--text-muted);
+  border-radius: 0 4px 4px 0;
+}
+
+.article-prose img {
+  max-width: 100%;
+  height: auto;
+  margin: 1.5rem 0;
+  border-radius: 2px;
+}
+
+.article-prose ul,
+.article-prose ol {
+  padding-left: 1.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.article-prose li {
+  margin-bottom: 0.4rem;
+}
+
+.article-prose strong {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.article-prose em {
+  font-style: italic;
+}
+
+/* ── Scrollbar styling ──────────────────────────────────── */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-muted);
+}
+
+/* ── Focus ring ─────────────────────────────────────────── */
+:focus-visible {
+  outline: 2px solid var(--highlight);
+  outline-offset: 2px;
+}
+
+/* ── Selection ──────────────────────────────────────────── */
+::selection {
+  background-color: #000000;
+  color: #ebff00;
+}

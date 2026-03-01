@@ -1,7 +1,7 @@
 'use client'
 
 import { useEffect, useRef } from 'react'
-import { isStarImage } from '@/lib/utils'
+import { isStarImage, imageUrl } from '@/lib/utils'
 import type { ImageRef } from '@/lib/types'
 
 interface ArticleContentProps {
@@ -53,6 +53,12 @@ export function ArticleContent({ html, contentImages, featuredImage }: ArticleCo
           wrapper.remove()
           return
         }
+      }
+
+      // Rewrite remote URLs to CDN (or local fallback)
+      const match = contentImages.find((ci) => ci.remoteUrl === src)
+      if (match) {
+        img.setAttribute('src', imageUrl(match.localPath))
       }
 
       img.style.maxWidth = '100%'

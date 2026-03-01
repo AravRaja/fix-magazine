@@ -1,14 +1,17 @@
 import type { ImageRef } from './types'
+import cdnMap from './cloudinary-urls.json'
 
-/** Convert a localPath like "images/foo.jpg" to a public URL "/images/foo.jpg" */
+const CDN = cdnMap as Record<string, string>
+
+/** Convert a localPath like "images/foo.jpg" to its CDN URL (or local fallback in dev) */
 export function imageUrl(localPath: string): string {
-  return `/${localPath}`
+  return CDN[localPath] ?? `/${localPath}`
 }
 
 /** Return public URL for a featured image, or null if missing */
 export function featuredImageUrl(image: ImageRef | null): string | null {
   if (!image) return null
-  return image.remoteUrl
+  return imageUrl(image.localPath)
 }
 
 /** Fallback placeholder when no image is available */

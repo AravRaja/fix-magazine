@@ -1,10 +1,13 @@
-/** Maps author slug → public avatar path. Slugs match the `author.slug` field in index.json */
+/** Maps author slug → Cloudinary avatar URL */
 export const AUTHOR_AVATAR: Record<string, string> = {
-  scott: '/images/team/scott.png',
-  conal: '/images/team/conal.jpg',
-  kevin: '/images/team/kevin.png',
-  Arran: '/images/team/arran.jpg',
-  stef: '/images/team/stef.jpg',
+  scott:  'https://res.cloudinary.com/dxkmlwgog/image/upload/v1772398479/fix-magazine/team/scott.png',
+  conal:  'https://res.cloudinary.com/dxkmlwgog/image/upload/v1772398478/fix-magazine/team/conal.jpg',
+  kevin:  'https://res.cloudinary.com/dxkmlwgog/image/upload/v1772398475/fix-magazine/team/kevin.png',
+  Arran:  'https://res.cloudinary.com/dxkmlwgog/image/upload/v1772398476/fix-magazine/team/arran.jpg',
+  stef:   'https://res.cloudinary.com/dxkmlwgog/image/upload/v1772398477/fix-magazine/team/stef.jpg',
+  david:  'https://res.cloudinary.com/dxkmlwgog/image/upload/v1772398474/fix-magazine/team/david.jpg',
+  will:   'https://res.cloudinary.com/dxkmlwgog/image/upload/v1772398477/fix-magazine/team/will.jpg',
+  esther: 'https://res.cloudinary.com/dxkmlwgog/image/upload/v1772398478/fix-magazine/team/esther.jpg',
 }
 
 /** Full bio text copied verbatim from thefixmagazine.com/about */
